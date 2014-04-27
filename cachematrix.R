@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
 }
 
 # Implementation to check for correctness
-q <- matrix(1:4,2)
+q <- matrix(c(1,2,3,0,1,4,5,6,0),3)
 w <- makeCacheMatrix(q)
 e <- cacheSolve(w)
 
